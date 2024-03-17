@@ -32,8 +32,8 @@ platforms:
         packageName: ev.current.weather
         manifest:
             - file: AndroidManifest.xml
-              target: manifest/application
-              inject: <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+              target: manifest
+              inject: <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
         gradle:
             - file: variables.gradle
               target:

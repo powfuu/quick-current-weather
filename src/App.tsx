@@ -52,9 +52,11 @@ const App: React.FC = () => (
 					<Redirect to="/" />
 				</IonRouterOutlet>
 				<IonTabBar
+					mode="ios"
 					slot="bottom"
 					className="ion-tab-bar">
 					<IonTabButton
+						mode="ios"
 						tab="/home"
 						href="/home"
 						className="ion-tab-button tab-selected">
