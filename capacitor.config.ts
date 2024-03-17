@@ -1,12 +1,12 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'convert-to-pdf',
-  webDir: 'dist',
-  server: {
-    androidScheme: 'https'
-  }
+	appId: "ev.current.weather",
+	appName: "ev.current.weather",
+	webDir: "dist",
+	server: {
+		androidScheme: "https"
+	}
 };
 
 export default config;

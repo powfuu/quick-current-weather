@@ -1,0 +1,29 @@
+/* app.css */
+
+.ion-tab-bar {
+	background: var(--ion-bg-color-font);
+	--background: var(--ion-bg-color-font);
+	border: 0px;
+	--border: 0px;
+	bottom: 0px;
+	position: relative;
+	border-radius: 16px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.ion-tab-button.tab-selected::before {
+	background-color: var(--ion-color-primary);
+	transform: scaleX(1);
+}
+
+.ion-tab-icon {
+	font-size: 35px;
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+html {
+	padding-top: env(safe-area-inset-top);
+}

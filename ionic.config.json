@@ -1,7 +1,7 @@
 {
-  "name": "convert-to-pdf",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
+	"name": "current-weather",
+	"integrations": {
+		"capacitor": {}
+	},
+	"type": "react-vite"
 }
